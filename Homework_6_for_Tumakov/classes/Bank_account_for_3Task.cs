@@ -9,9 +9,6 @@ namespace Homework_6_for_Tumakov
         private Account_bank _account_bank;
         #endregion
 
-        //Добавить в класс счет в банке два метода: снять со счета и положить на
-        //счет.Метод снять со счета проверяет, возможно ли снять запрашиваемую сумму, и в случае
-        //положительного результата изменяет баланс.
 
         #region Методы
         public void Deposit_account(decimal amount)

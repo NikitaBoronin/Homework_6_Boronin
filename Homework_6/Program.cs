@@ -11,7 +11,7 @@ namespace Homework_6
             Auto_auction autoAuction = new Auto_auction("Иван Иванов", 500, 1, 10, 5, 25000);
             autoAuction.PrintAuctionDetails();
             autoAuction.GetWinner();
-            autoAuction.SetSaleprice(30000); // Передаём новую цену
+            autoAuction.SetSaleprice(30000); 
 
             string autoAuctionFilePath = "autoAuction.txt";
             autoAuction.SaveToFile(autoAuctionFilePath);
@@ -25,7 +25,7 @@ namespace Homework_6
             Houses_auction housesAuction = new Houses_auction("Петр Петров", 1000, 101, 15, 7, 500000);
             housesAuction.PrintAuctionDetails();
             housesAuction.GetWinner();
-            housesAuction.SetSaleprice(600000); // Передаём новую цену
+            housesAuction.SetSaleprice(600000); 
 
             string housesAuctionFilePath = "housesAuction.txt";
             housesAuction.SaveToFile(housesAuctionFilePath);
